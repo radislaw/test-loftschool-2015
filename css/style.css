@@ -6,7 +6,7 @@ body {
 }
 
 .wrapper {
-    width: 961px;
+    width: 962px;
     margin: 0 auto;
 }
 
@@ -14,4 +14,9 @@ body {
     content: '';
     clear: both;
     display: table;
+}
+
+.main-header {
+    background-color: #eff3f7;
+    padding: 39px 0 38px 0;
 }
