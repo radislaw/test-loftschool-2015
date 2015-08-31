@@ -9,3 +9,9 @@ body {
     width: 961px;
     margin: 0 auto;
 }
+
+.clearfix {
+    content: '';
+    clear: both;
+    display: table;
+}
