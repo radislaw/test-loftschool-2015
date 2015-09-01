@@ -73,3 +73,12 @@ body {
 .gh:hover {
     background: url(/images/social_sprite_hw.png) -213px;
 }
+
+main {
+    padding-top: 39px;
+    padding-bottom: 35px;
+    border-width: 3px;
+    -webkit-border-image: -webkit-linear-gradient(left, #f1f6fa, #1c667a, #f1f6fa) 100% 0 100% 0;
+    -o-border-image: linear-gradient(left, #fff, #1c667a, #fff) 100% 0 100% 0;
+    border-image: linear-gradient(left, #fff, #1c667a, #fff) 100% 0 100% 0;
+}
