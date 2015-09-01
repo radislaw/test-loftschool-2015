@@ -18,5 +18,58 @@ body {
 
 .main-header {
     background-color: #eff3f7;
-    padding: 39px 0 38px 0;
+    padding: 39px 0 32px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.social {
+    width: 261px;
+    float: right;
+}
+
+.social-btn {
+    float: left;
+    width: 47px;
+    height: 47px;
+    margin-right: 24px;
+    margin-top: -4px;
+}
+
+.social-btn:last-child {
+    margin-right: 0;
+}
+
+.vk {
+    background: url(/images/social_sprite.png);
+}
+
+.vk:hover {
+    background: url(/images/social_sprite_hw.png);
+}
+
+.tw {
+    background: url(/images/social_sprite.png) -71px;
+}
+
+.tw:hover {
+    background: url(/images/social_sprite_hw.png) -71px;
+}
+
+.fb {
+    background: url(/images/social_sprite.png) -142px;
+}
+
+.fb:hover {
+    background: url(/images/social_sprite_hw.png) -142px;
+}
+
+.gh {
+    background: url(/images/social_sprite.png) -213px;
+}
+
+.gh:hover {
+    background: url(/images/social_sprite_hw.png) -213px;
 }
