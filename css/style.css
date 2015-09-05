@@ -104,7 +104,7 @@ main {
     border-bottom: 2px solid #3ba8c0;
 }
 
-.main-nav a:last-child {
+.main-nav li:last-child a {
     border-bottom: none;
 }
 
