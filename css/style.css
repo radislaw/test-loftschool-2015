@@ -82,3 +82,50 @@ main {
     -o-border-image: linear-gradient(left, #fff, #1c667a, #fff) 100% 0 100% 0;
     border-image: linear-gradient(left, #fff, #1c667a, #fff) 100% 0 100% 0;
 }
+
+.main-nav {
+    float: left;
+    border-radius: 4px;
+    background-color: #eff3f7;
+    width: 251px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul a {
+    display: block;
+    padding: 18px 27px;
+    color: #959aa8;
+    text-decoration: none;
+    border-bottom: 2px solid #3ba8c0;
+}
+
+.main-nav a:last-child {
+    border-bottom: none;
+}
+
+section {
+    float: right;
+}
+
+
+/*.main-nav ul li {
+    margin: 0;
+
+}
+.main-nav ul li:last-child {
+    border-bottom: none;
+}
+
+.main-nav ul li a:hover {
+    color: #3ba8c0;
+}
+.main-nav ul li a.active-link {
+    background-color: #3ba8c0;
+    color: #fff;
+    font-size: 23px;
+}
