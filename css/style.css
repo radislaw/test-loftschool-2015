@@ -123,19 +123,10 @@ main {
     font-size: 23px;
 }
 
-section {
-    float: right;
-}
-
-
-/*
-
-
-.main-nav ul li a:hover {
+.main-nav ul li a:hover:not(.active-page) {
     color: #3ba8c0;
 }
-.main-nav ul li a.active-link {
-    background-color: #3ba8c0;
-    color: #fff;
-    font-size: 23px;
+
+section {
+    float: right;
 }
