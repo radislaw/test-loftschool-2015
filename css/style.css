@@ -98,17 +98,11 @@ main {
 
 .main-nav ul a {
     display: block;
-    padding: 21px 27px 16px 27px;
+    padding: 21px 27px 16px 28px;
     color: #959aa8;
     font-size: 21px;
     text-decoration: none;
     border-bottom: 2px solid #3ba8c0;
-}
-
-.main-nav li:last-child a {
-    border-bottom: none;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
 }
 
 .main-nav li:first-child a {
@@ -117,10 +111,18 @@ main {
     border-top-right-radius: 4px;
 }
 
+.main-nav li:last-child a {
+    border-bottom: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-bottom: 20px;
+}
+
 .main-nav .active-page {
     background-color: #3ba8c0;
     color: #fff;
     font-size: 23px;
+    padding-bottom: 17px;
 }
 
 .main-nav ul li a:hover:not(.active-page) {
@@ -129,4 +131,55 @@ main {
 
 section {
     float: right;
+}
+
+article {
+    border-radius: 4px;
+    background-color: #eff3f7;
+    margin-bottom: 26px;
+    font-size: 17px;
+    padding-bottom: 37px;
+    padding-right: 51px;
+}
+
+h1.section-title {
+    font-size: 27px;
+    margin: 0 0 4px 0;
+    color: #3ba8c0;
+    padding: 13px 21px 12px 21px;
+    border-bottom: 2px solid #3ba8c0;
+    display: inline-block;
+}
+
+article p {
+    padding-left: 55px;
+    margin-bottom: -3px;
+    line-height: 24px;
+}
+
+article p:before {
+    content: '';
+    background: url(/images/icon-v.png) no-repeat;
+    width: 41px;
+    height: 39px;
+    padding: 2px 14px;
+    float: left;
+    display: block;
+}
+
+article p.icon-bag:before {
+    background-position: 0px 6px;
+}
+
+article p.icon-hat:before {
+    background-position: 0px -34px;
+}
+
+small {
+    font-family: 'fira_sanslight', sans-serif;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
 }
