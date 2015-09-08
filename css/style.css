@@ -76,7 +76,7 @@ body {
 
 main {
     padding-top: 39px;
-    padding-bottom: 35px;
+    padding-bottom: 8px;
     border-width: 3px;
     -webkit-border-image: -webkit-linear-gradient(left, #f1f6fa, #1c667a, #f1f6fa) 100% 0 100% 0;
     -o-border-image: linear-gradient(left, #fff, #1c667a, #fff) 100% 0 100% 0;
@@ -182,4 +182,9 @@ small {
 
 footer {
     text-align: center;
+    padding: 25px;
+}
+
+footer small {
+    font-size: 13px;
 }
