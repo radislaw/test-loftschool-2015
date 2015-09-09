@@ -36,42 +36,39 @@ body {
     height: 47px;
     margin-right: 24px;
     margin-top: -4px;
+    background: url(/images/social.png);
 }
 
 .social-btn:last-child {
     margin-right: 0;
 }
 
-.vk {
-    background: url(/images/social_sprite.png);
-}
-
-.vk:hover {
-    background: url(/images/social_sprite_hw.png);
+.social-btn:hover {
+    background: url(/images/social-hv.png);
 }
 
 .tw {
-    background: url(/images/social_sprite.png) -71px;
+    background-position: -71px;
 }
 
 .tw:hover {
-    background: url(/images/social_sprite_hw.png) -71px;
+    background-position: -71px;
 }
 
 .fb {
-    background: url(/images/social_sprite.png) -142px;
+    background-position: -142px;
 }
 
 .fb:hover {
-    background: url(/images/social_sprite_hw.png) -142px;
+    background-position: -142px;
 }
 
 .gh {
-    background: url(/images/social_sprite.png) -213px;
+    background-position: -213px;
 }
 
 .gh:hover {
-    background: url(/images/social_sprite_hw.png) -213px;
+    background-position: -213px;
 }
 
 main {
@@ -172,7 +169,11 @@ article p.icon-bag:before {
 }
 
 article p.icon-hat:before {
-    background-position: 0px -34px;
+    background-position: 0px -39px;
+}
+
+article p.icon-page:before {
+    background-position: 0px -74px;
 }
 
 small {
@@ -183,8 +184,18 @@ small {
 footer {
     text-align: center;
     padding: 25px;
+    background-color: #eff3f7;
 }
 
 footer small {
     font-size: 13px;
+}
+
+.login {
+    background: url(/images/icon-v.png) no-repeat;
+    width: 20px;
+    height: 32px;
+    padding: 2px 14px;
+    float: left;
+    background-position: 0px -120px;
 }
