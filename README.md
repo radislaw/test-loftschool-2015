@@ -4,8 +4,8 @@
   * Extract for Brackets
   * Emmet
   * Brackets Git
-* Git
-* GitHub
+* Git + GitHub
 * Jade
 * Photoshop
 * Google Chrome
+  * PerfectPixel
