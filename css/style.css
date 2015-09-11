@@ -3,6 +3,7 @@ body {
     height: 767px;
     font-family: 'fira_sansbook', sans-serif;
     background: url(/images/background.png);
+    color: #4a545d;
 }
 
 .wrapper {
@@ -135,67 +136,75 @@ article {
     background-color: #eff3f7;
     margin-bottom: 26px;
     font-size: 17px;
-    padding-bottom: 37px;
+    padding-bottom: 24px;
     padding-right: 51px;
 }
 
 h1.section-title {
     font-size: 27px;
-    margin: 0 0 4px 0;
+    margin: 0 0 21px 0;
     color: #3ba8c0;
+    font-weight: 300;
     padding: 13px 21px 12px 21px;
     border-bottom: 2px solid #3ba8c0;
     display: inline-block;
 }
 
-article p {
-    padding-left: 55px;
-    margin-bottom: -3px;
-    line-height: 24px;
+article .description {
+    margin-bottom: 14px;
+    margin-left: 24px;
+    padding-left: 100px;
+    position: relative;
 }
 
-article p:before {
-    content: '';
-    background: url(/images/icons.png) no-repeat;
-    width: 41px;
-    height: 39px;
-    padding: 2px 11px;
-    float: left;
-    display: block;
+article .description-title {
+    margin-bottom: -5px;
 }
 
-article p.icon-bag:before {
-    background-position: 0px 7px;
-}
-
-article p.icon-hat:before {
-    background-position: 0px -64px;
-}
-
-article p.icon-page:before {
-    background-position: 0px -126px;
-}
-
-small {
+article .interval {
     font-family: 'fira_sanslight', sans-serif;
     font-size: 15px;
 }
 
-footer {
-    text-align: center;
-    padding: 25px;
-    background-color: #eff3f7;
+article .icon {
+    background: url(/images/icons.png) no-repeat;
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    left: 31px;
 }
 
-footer small {
+article .icon-bag {
+    background-position: 0px 6px;
+}
+
+article .icon-hat {
+    background-position: 0px -66px;
+}
+
+article .icon-page {
+    background-position: 0px -126px;
+}
+
+footer {
+    text-align: center;
+    padding: 28px;
+    background-color: #eff3f7;
+    position: relative;
+}
+
+.copy {
     font-size: 13px;
+    font-family: 'fira_sanslight', sans-serif;
+    padding-left: 9px;
 }
 
 .login {
-    background: url(/images/icon-v.png) no-repeat;
-    width: 20px;
-    height: 27px;
-    padding: 6px 6px;
-    float: left;
-    background-position: 0px -124px;
+    position: absolute;
+    background: url(/images/icons.png) no-repeat;
+    width: 21px;
+    height: 32px;
+    background-position: bottom;
+    top: 23px;
+    left: 254px;
 }
