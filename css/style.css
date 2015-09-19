@@ -2,7 +2,7 @@ body {
     width: 1400px;
     height: 767px;
     font-family: 'fira_sansbook', sans-serif;
-    background: url(/images/background.png);
+    background: url(../images/background.png);
     color: #4a545d;
 }
 
@@ -37,7 +37,7 @@ body {
     height: 47px;
     margin-right: 24px;
     margin-top: -4px;
-    background: url(/images/social.png);
+    background: url(../images/social.png);
 }
 
 .social-btn:last-child {
@@ -45,7 +45,7 @@ body {
 }
 
 .social-btn:hover {
-    background: url(/images/social-hv.png);
+    background: url(../images/social-hv.png);
 }
 
 .tw {
@@ -76,7 +76,7 @@ main {
     padding-top: 39px;
     padding-bottom: 8px;
     border-width: 3px;
-    -webkit-border-image: -webkit-linear-gradient(left, #f1f6fa, #1c667a, #f1f6fa) 100% 0 100% 0;
+    -webkit-border-image: -webkit-linear-gradient(left, #e7eff3 0%, #e5eef3 6%, #dee9ef 9%, #cddee4 14%, #a5c3ce 22%, #7ba7b4 30%, #4c8797 36%, #317487 41%, #256d80 43%, #1c667a 47%, #1c667a 50%, #21697d 53%, #2c7083 56%, #38798b 59%, #4b8696 63%, #7ca7b3 70%, #a8c4ce 78%, #cddde3 86%, #dce7ed 91%, #e5eef3 94%, #e7eff3 100%) 100% 0 100% 0;
     -o-border-image: linear-gradient(left, #fff, #1c667a, #fff) 100% 0 100% 0;
     border-image: linear-gradient(left, #fff, #1c667a, #fff) 100% 0 100% 0;
 }
@@ -168,7 +168,7 @@ article .interval {
 }
 
 article .icon {
-    background: url(/images/icons.png) no-repeat;
+    background: url(../images/icons.png) no-repeat;
     width: 41px;
     height: 41px;
     position: absolute;
@@ -204,7 +204,7 @@ footer {
 
 .login {
     position: absolute;
-    background: url(/images/icons.png) no-repeat;
+    background: url(../images/icons.png) no-repeat;
     width: 21px;
     height: 32px;
     background-position: bottom;
